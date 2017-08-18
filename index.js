@@ -9,5 +9,5 @@ app.get('/', function (req, res) {
 })
 
 app.listen(server_port,server_ip_address, function () {
-  console.log('Example app listening on port '+server_port+'!')
+  console.log('Example app listening on port '+server_port+' for server '+server_ip_address+'!')
 })
